@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="navbar">
+
+            <div class="nav-logo">
+                <img src=images/amazon_logo.png class="amazon-logo">
+            </div>
+
+            <div class="nav-location">
+                    <p class="line1">Deliver to</p>
+                    <div class="location-icon">
+                        <i class="fa-solid fa-location-dot"></i>                    
+                        <p class="line2">India</p>
+                    </div>
+                    
+            </div>
+
+            <div class="nav-search">
+                <select class="dropdown">
+                    <option>All</option>
+                </select>
+                    <input type="text" placeholder="Search Amazon" class="search-bar">
+                
+                <div class="search-button">
+                    <i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
+                </div>
+                
+            </div>
+
+            <div class="toolbar">
+                <div class="nav-flag">
+                    <img src="images/download.jpeg" class="usa-flag">
+                    <span>EN</span>
+                    <i class="fa-solid fa-caret-down" id="flag-dropdown"></i>
+                </div>
+
+                <div class="nav-account">
+                    <p class="line1">Hello, sign in</p>
+                    <div class="nav-account-line2">
+                        <p class="line2">Account & Lists</p>
+                        <i class="fa-solid fa-caret-down" id="nav-account-dropdown"></i>
+                    </div>
+                    
+                </div>
+
+                <div class="nav-order">
+                    <div class="line1">Returns</div>
+                    <div class="line2">& Orders</div>
+                </div>
+
+                <div class="nav-cart">
+                    <i class="fa-solid fa-cart-shopping" id="cart-icon"></i>
+                    <p class="cart-text">Cart</p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="panel">
+            <div class="left-section">
+                <i class="fa-solid fa-bars" id="menu-icon"></i>
+                <p class="menu-text">All</p>
+            </div>
+            <div class="mid-section">
+                <p class="panel-button">Today' Deals</p> 
+                <p class="panel-button">Customer Service</p>
+                <p class="panel-button">Registry</p>
+                <p class="panel-button">Gift Cards</p>
+                <p class="panel-button">Sell</p>
+            </div>
+        </div>
+    </header>
+    <main style="background-color: #e3e6e6;">
+    <div class="hero-section">
+        <i class="fa-solid fa-less-than" id="previous-icon"></i>
+        <div class="hero-msg">        
+            <span class="hero-text">You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery.</span><a href="https://www.amazon.in/" class="amazon-link"> Click here to go to amazon.in</a> 
+        </div>
+        <i class="fa-solid fa-greater-than" id="next-icon"></i>
+    </div>
+
+    <div class="shop-section">
+        <div class="box">
+            <h2 class="title">Clothing</h2>
+            <div class="box-img" style="background-image: url(images/box1_image.jpg);"></div>
+            <a class="shop-now">Shop now</a>
+        </div>
+        <div class="box">
+            <h2 class="title">Health & Personal Care</h2>
+            <div class="box-img" style="background-image: url(images/box2_image.jpg);"></div>
+            <a class="shop-now">Shop now</a>
+        </div>
+        <div class="box">
+            <h2 class="title">Home decor</h2>
+            <div class="box-img" style="background-image: url(images/box3_image.jpg);"></div>
+            <a class="shop-now">Shop now</a>           
+        </div>
+        <div class="box">
+            <h2 class="title">Mobile,Electronics & More</h2>
+            <div class="box-img" style="background-image: url(images/box4_image.jpg);"></div>
+            <a class="shop-now">Shop now</a>
+        </div>
+        <div class="box">
+            <h2 class="title">Beauty & Picks</h2>
+            <div class="box-img" style="background-image: url(images/box5_image.jpg);"></div>
+            <a class="shop-now">Shop now</a>
+        </div>
+        <div class="box">
+            <h2 class="title">Pet Supplies</h2>
+            <div class="box-img" style="background-image: url(images/box6_image.jpg);"></div>
+            <a class="shop-now">Shop now</a>
+        </div>
+        <div class="box">
+            <h2 class="title">Toys under &#36;25</h2>
+            <div class="box-img" style="background-image: url(images/box7_image.jpg);"></div>
+            <a class="shop-now">Shop now</a>           
+        </div>
+        <div class="box">
+            <h2 class="title">Fashion trends you like</h2>
+            <div class="box-img" style="background-image: url(images/box8_image.jpg);"></div>
+            <a class="shop-now">Shop now</a>
+        </div>
+    </div>
+    </main>
+    <footer>
+        <div class="separator"></div>
+        <div class="footer-top-section">Back to top</div>
+        <div class="footer-mid-section">
+            <div class="nav-box">
+                <h4>Get to Know Us</h4>
+                <a class="nav-accessibility-info">Careers</a>
+                <a class="nav-accessibility-info">Blog</a>
+                <a class="nav-accessibility-info">About Amazon</a>
+                <a class="nav-accessibility-info">Investor Relations</a>
+                <a class="nav-accessibility-info">Amazon Devices</a>
+                <a class="nav-accessibility-info">Amazon Science</a>
+            </div>
+            <div class="nav-box">
+                <h4>Make Money with us</h4>
+                <a class="nav-accessibility-info">Sell products on Amazon</a>
+                <a class="nav-accessibility-info">Sell on Amazon Business</a>
+                <a class="nav-accessibility-info">Sell apps on Amazon</a>
+                <a class="nav-accessibility-info">Become an Affiliate</a>
+                <a class="nav-accessibility-info">Advertise Your Products</a>
+                <a class="nav-accessibility-info">Self-Publish with us</a>
+                <a class="nav-accessibility-info">Host an Amazon Hub</a>
+            </div>
+            <div class="nav-box">
+                <h4>Amazon Payment Products</h4>
+                <a class="nav-accessibility-info">Amazon Business Card</a>
+                <a class="nav-accessibility-info">Shop with Points</a>
+                <a class="nav-accessibility-info">Reload Your Balance</a>
+                <a class="nav-accessibility-info">Amazon Currency Coverter</a>
+            </div>
+            <div class="nav-box">
+                <h4>Let Us Help You</h4>
+                <a class="nav-accessibility-info">Amazon and COVID-19</a>
+                <a class="nav-accessibility-info">Your Account</a>
+                <a class="nav-accessibility-info">Your Orders</a>
+                <a class="nav-accessibility-info">Shipping Rates & Policies</a>
+                <a class="nav-accessibility-info">Returns & Replacements</a>
+                <a class="nav-accessibility-info">Manage Your Content and Devices</a>
+                <a class="nav-accessibility-info">Amazon Assistant</a>
+                <a class="nav-accessibility-info">Help</a>
+            </div>
+        </div>
+        <div class="footer-bottom-section">
+            <img src=images/amazon_logo.png class="footer-amazon-logo">
+        </div>
+        <div class="foot-panel">
+            <div class="pages">
+                <a>Condition of Use</a>
+                <a>Privacy Notice</a>
+                <a>Your Ads Privacy Choices</a>
+            </div>
+            <div class="copyright">
+                <p>1996-2024, Amazon.com, Inc. or its affiliates</p>
+            </div>
+
+        </div>
+    </footer>
+</body>
+</html>
