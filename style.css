@@ -217,7 +217,7 @@
     padding: 9px 7px;
 }
 .hero-section{
-    background-image: url("images/hero_image.jpg");
+    background-image: url("hero_image.jpg");
     height: 350px;
     background-size: cover;
     margin-left: 10px;
